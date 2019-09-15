@@ -3,7 +3,6 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/hmg_hpdf
 
 -I../../include

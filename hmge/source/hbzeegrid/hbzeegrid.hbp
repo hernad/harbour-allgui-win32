@@ -3,14 +3,13 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/hbzeegrid
 
 -I../../include
 
 -warn=max
 
--w3 -es2 -ko -q0
+-w3 -es2 -q0
 
 -hbx=../../include/hbzeegrid.hbx
 

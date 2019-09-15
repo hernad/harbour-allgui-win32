@@ -1,2 +1,11 @@
 -container
+-beep
 source/hmge_core.hbp
+source/adordd/hmge_adordd.hbp
+source/bostaurus/hmge_bostaurus.hbp
+{!xhb}source/calldll/hmge_calldll.hbp
+source/hbfimage/hmge_hbfimage.hbp
+source/hbvpdf/hmge_hbvpdf.hbp
+source/hbziparc/hmge_hbziparc.hbp
+source/miniprint/hmge_miniprint.hbp
+source/tsbrowse/hmge_tsbrowse.hbp

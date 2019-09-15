@@ -1,6 +1,3 @@
-# Incremental-Mode compilation
--inc
-
 # Folder where are placed all * .obj
 -workdir=obj
 

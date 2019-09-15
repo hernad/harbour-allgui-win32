@@ -3,16 +3,15 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/hbprinter
 
 -I../../include
 
--warn=max 
+-warn=max
 
 {bcc}-hbx=../../include/winprint.hbx
 
--w3 -es2 -ko -q0
+-w3 -es2 -q0
 
 winprint.prg
 

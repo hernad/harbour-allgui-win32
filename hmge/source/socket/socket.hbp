@@ -3,14 +3,13 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/socket
 
 -I../../include
 
 -warn=yes
 
--w2 -es2 -ko -q0
+-w2 -es2 -q0
 
 -cflag=-D_WINSOCK_DEPRECATED_NO_WARNINGS
 {bcc}-cflag=-w-8057

@@ -3,7 +3,6 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/hbsqlit3
 
 -I../../include

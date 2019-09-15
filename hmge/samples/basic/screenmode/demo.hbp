@@ -1,11 +1,8 @@
 # Keys when compiling .prg files
--prgflag=-w2 -es1 
+-prgflag=-w2 -es1
 
 # Enable multi/single-thread Harbour VM
--mt 
-
-# Incremental-Compile mode
--inc
+-mt
 
 # folder where there will be all *.obj
 -workdir=OBJ

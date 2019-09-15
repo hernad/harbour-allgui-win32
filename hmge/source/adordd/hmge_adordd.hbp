@@ -1,14 +1,12 @@
 #
-# bostaurus.hbp
+# adordd.hbp
 #
 
 -hblib
+-beep
 -o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
 -I../../include
 -warn=max
--w3 -es2 -q0
--beep
-
+-w2 -es2 -q0
 -hbx=${hb_addons}/hmge/${hb_name}
-
-bostaurus.prg
+adordd.prg

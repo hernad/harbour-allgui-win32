@@ -1,9 +1,6 @@
 
 # Enable multi/single-thread Harbour VM
-#-mt 
-
-# Incremental-compilation mode
--inc
+#-mt
 
 # folder where are all *.obj
 -workdir=OBJ

@@ -3,15 +3,13 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/hbxml
 
 -I../../include
 
--w -es2 -ko -q0
+-w -es2 -q0
 
 {bcc}-hbx=../../include/hbxml.hbx
 
 hxmldoc.prg
 xmlparse.c
-

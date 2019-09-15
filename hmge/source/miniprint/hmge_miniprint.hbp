@@ -3,11 +3,12 @@
 #
 
 -hblib
--o${hb_addons}/hmge/hmge_miniprint
+-o${hb_addons}/hmge/lib/win/${hb_comp}/hmge_miniprint
 -I../../include
 -warn=max
--w3 -es2 -ko -q0
-{bcc|mingw}-hbx=${hb_addons}/hnge/${hb_name}
+-w3 -es2 -q0
+{bcc|mingw}-hbx=${hb_addons}/hmge/${hb_name}
+-beep
 
 -cflag=-D_ERRORMSG_
 

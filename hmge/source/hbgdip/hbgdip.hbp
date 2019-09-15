@@ -3,7 +3,6 @@
 #
 
 -hblib
--inc
 -o../../harbour/lib/hbgdip
 
 -I../../include
@@ -12,10 +11,10 @@
 
 -hbx=../../include/hbgdip.hbx
 
-core.c 
-pen.c 
-brush.c 
-image.c 
-imageattr.c 
-graphics.c 
+core.c
+pen.c
+brush.c
+image.c
+imageattr.c
+graphics.c
 bitmap.c

@@ -3,18 +3,11 @@
 #
 
 -hblib
--inc
-
--workdir=../../lib/hbmk/obj
-
--o../../lib/tsbrowse
-
+-o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
 -I../../include
-
--w2 -es2 -ko -q0
-
-{bcc}-hbx=../../include/tsbrowse.hbx
-
+-w2 -es2 -q0
+-hbx=${hb_addons}/hmge/${hb_name}
+-beep
 -warn
 
 SBMSG.PRG

@@ -6,7 +6,6 @@
 -I../include
 -w3
 -es2
--quiet
 -beep
 {mingw|mingw64|msvc|msvc64}-l
 {mingw|mingw64}-cflag=-Wno-cast-function-type

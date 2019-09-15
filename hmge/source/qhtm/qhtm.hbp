@@ -3,14 +3,13 @@
 #
 
 -hblib
--inc
 -o../../lib/hmg_qhtm
 
 -I../../include
 
 -warn=max
 
--w2 -es2 -ko -q0
+-w2 -es2 -q0
 
 -hbx=../../include/hmg_qhtm.hbx
 

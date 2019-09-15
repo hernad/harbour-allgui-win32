@@ -1,8 +1,5 @@
 # hbmk2 from project: IconsToForm demo1.exe ----- 17.07.2012 ----------
 
-# compilation mode - Incremental
--inc
-
 # folder where are all *. obj
 -workdir=OBJ
 
@@ -16,7 +13,7 @@ themes.prg
 # resource files for the project
 demo.rc
 
-# the way to the main and extension *. Lib 
+# the way to the main and extension *. Lib
 -lminigui
 -Lc:\MiniGUI\LIB\
 

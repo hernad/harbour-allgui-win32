@@ -6,5 +6,4 @@ FUNCS.prg
 RADIO_WIZ.prg
 TOOL_WIZ.prg
 
--inc
 -workdir=obj

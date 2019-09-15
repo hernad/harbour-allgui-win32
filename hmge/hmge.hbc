@@ -1,0 +1,35 @@
+# hmg paths
+incpaths=include
+libpaths=${hb_addons}/hmge/lib/win/${hb_comp}
+
+# app resources
+incpaths=${hb_curdir}
+sources=${hb_curdir}*.rc
+
+sources=resource\minigui.res
+sources=resource\hbprinter.res
+sources=resource\miniprint.res
+
+# win98 unicode support
+# libs=unicows
+
+# core
+libs=hnge_core hmge_hbprinter hmge_miniprint
+
+# core additional binary
+libs=hmge_dll hmge_cputype hmge_propgrid hmge_propsheet hmge_tsbrowse hmge_winreport
+{xhb}libs=hmge_calldll
+
+# winxp MS Agent support (obsolete)
+# libs=hmge_TMsAgent
+
+# Harbour needed contribs
+{xhb}libs=hbct hbtip hbwin hbvpdf xhb
+{!xhb}libs=hbct.hbc hbtip.hbc hbwin.hbc hbvpdf.hbc xhb.hbc
+
+# Harbour additional contribs
+{xhb}libs=hbmisc hbziparc hbmzip minizip hbmemio hbxml
+{!xhb}libs=hbmisc.hbc hbziparc.hbc hbmzip.hbc minizip.hbc hbmemio.hbc hbxml.hbc
+
+# system
+libs=vfw32 msvfw32

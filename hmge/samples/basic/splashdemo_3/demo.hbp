@@ -1,6 +1,3 @@
-# Incremental-compilation mode
--inc
-
 # folder where are all the (*.obj) this project
 -workdir=OBJ
 

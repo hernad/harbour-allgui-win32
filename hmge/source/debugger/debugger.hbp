@@ -3,12 +3,11 @@
 #
 
 -hblib
--inc
 -o../../lib/debugger
 
 -I../../include
 
--w -es2 -ko -q0
+-w -es2 -q0
 
 -hbx=../../include/debugger.hbx
 

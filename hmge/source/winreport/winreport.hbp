@@ -3,14 +3,13 @@
 #
 
 -hblib
--inc
 -o../../lib/winreport
 
 -I../../include
 
 -hbx=../../include/winreport.hbx
 
--w2 -es2 -ko -q0
+-w2 -es2 -q0
 
 h_wrepint.prg
 h_wremix.prg
