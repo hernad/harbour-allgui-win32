@@ -1,0 +1,16 @@
+#
+test.prg
+REPORT.PRG
+COLUMN.PRG
+gdevposout.prg
+gHBPRINT.prg
+gPDFPRINT.prg
+gHTMPRINT.prg
+gXLSPRINT.prg
+gHtmAbsPosPRINT.prg
+
+-lhbhpdf
+-llibhpdf
+-lhbzebra
+-lBosTaurus
+-lpng

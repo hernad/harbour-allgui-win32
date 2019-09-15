@@ -1,0 +1,27 @@
+3.0.4.124	2019/07/25	
+
+Fixed several small bugs (Thanks to Michael Hagl for reporting), running at several clients without any issues.
+
+3.0.4.119 (Beta)	2018/05/21	
+
+New: PSSetPWTopMost 
+New: PSUnicodeChar - Prints a Unicode character at position X,Y using parameters
+New: PDF/A output
+
+3.0.4.105 (Beta)	2017/12/23	
+
+New: Extra barcode's and QRCode ( PSQrCode) 
+New: PSSetPDFEncoding
+New: PSSetPDfEmbeddedFonts
+New: PsSetPDFVersion
+Fixed: Preview and printer output was not scaled right on ms-Surface laptops and
+       on new Windows 8 and 10 systems when scaling (DPI) was not 100% ( Thanks to Michael Hagl for reporting ) 
+Fixed: PSSetPWZoomLevel was using values set ( Thanks to jimmy for reporting )
+Fixed: PDF Patterns now work
+Fixed: Fill color in PSFrame was not working. (Thanks to Grigory Filatov for reporting )
+Fixed: PsSetUnit was not reset to its default values ( Thanks to Grigory Filatov for reporting )
+
+3.0.4.52 (Beta)	2017/10/02	
+
+New : Rewrite of PDF engine, it now support metric font sizes
+Fixed : Issue when aborting Preview screen

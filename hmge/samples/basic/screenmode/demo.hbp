@@ -1,0 +1,21 @@
+# Keys when compiling .prg files
+-prgflag=-w2 -es1 
+
+# Enable multi/single-thread Harbour VM
+-mt 
+
+# Incremental-Compile mode
+-inc
+
+# folder where there will be all *.obj
+-workdir=OBJ
+
+# the name of the EXE module
+-oScreenModeDemo
+
+# list all *.prg
+demo.prg
+util_fonts.prg
+
+# project Resources
+demo.rc
