@@ -1,0 +1,7 @@
+-hblib
+-o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
+-I.
+-hbx=${hb_addons}/hmge/${hb_name}
+-w3 -es2
+-c=gnu90
+core.c

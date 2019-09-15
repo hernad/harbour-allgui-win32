@@ -1,0 +1,15 @@
+#
+# miniprint.hbp
+#
+
+-hblib
+-o${hb_addons}/hmge/hmge_miniprint
+-I../../include
+-warn=max
+-w3 -es2 -ko -q0
+{bcc|mingw}-hbx=${hb_addons}/hnge/${hb_name}
+
+-cflag=-D_ERRORMSG_
+
+h_miniprint.prg
+c_miniprint.c

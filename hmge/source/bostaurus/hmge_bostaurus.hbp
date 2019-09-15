@@ -1,0 +1,12 @@
+#
+# bostaurus.hbp
+#
+
+-hblib
+-o${hb_addons}/hmge/${hb_name}
+-I../../include
+-warn=max
+-w3 -es2 -ko -q0
+{bcc}-hbx=%{hb_addons}/hmge/${hb_name}
+
+bostaurus.prg
