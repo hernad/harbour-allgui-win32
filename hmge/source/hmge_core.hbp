@@ -3,26 +3,17 @@
 #
 
 -hblib
-
--inc
-
--workdir=../lib/hbmk/obj
-
--o../lib/minigui
-
 -I../include
-
--w3 -es2 -ko -q0
-
+-w3
+-es2
+-quiet
+-beep
 {mingw|mingw64|msvc|msvc64}-l
-
--warn=yes
-
 {mingw|mingw64}-cflag=-Wno-cast-function-type
-
 {msvc|msvc64}-cflag=-D_CRT_SECURE_NO_WARNINGS
 
--hbx=../include/hmg.hbx
+-hbx=${hb_addons}/hmge/${hb_name}
+-o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
 
 c_bitmap.c
 c_browse.c
