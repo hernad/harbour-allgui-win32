@@ -1,3 +1,7 @@
+#{hbexe}sources=resource/hbprinter.rc
+#{hbexe}sources=resource/miniprint.rc
+{hbexe}sources=resource/minigui.rc
+
 # hmg paths
 incpaths=include
 libpaths=${hb_addons}/hmge/lib/win/${hb_comp}
@@ -6,18 +10,15 @@ libpaths=${hb_addons}/hmge/lib/win/${hb_comp}
 incpaths=${hb_curdir}
 sources=${hb_curdir}*.rc
 
-sources=resource\minigui.res
-sources=resource\hbprinter.res
-sources=resource\miniprint.res
-
 # win98 unicode support
 # libs=unicows
 
 # core
-libs=hnge_core hmge_hbprinter hmge_miniprint
+libs=hmge_core hmge_hbprinter hmge_miniprint
 
 # core additional binary
-libs=hmge_dll hmge_cputype hmge_propgrid hmge_propsheet hmge_tsbrowse hmge_winreport
+{xhb}libs=cputype
+libs=hmge_propgrid hmge_propsheet hmge_tsbrowse hmge_winreport
 {xhb}libs=hmge_calldll
 
 # winxp MS Agent support (obsolete)
@@ -25,13 +26,15 @@ libs=hmge_dll hmge_cputype hmge_propgrid hmge_propsheet hmge_tsbrowse hmge_winre
 
 # Harbour needed contribs
 {xhb}libs=hbct hbtip hbwin hbvpdf xhb
-{!xhb}libs=hbct.hbc hbtip.hbc hbwin.hbc hbvpdf xhb.hbc
+{!xhb}libs=hbct.hbc hbtip.hbc hbwin.hbc hmge_hbvpdf
 
 # Harbour additional contribs
 {xhb}libs=hbmisc hbziparc hbmzip minizip hbmemio hbxml
 {!xhb}libs=hbmisc.hbc hbziparc.hbc hbmzip.hbc hbmemio.hbc hbzebra.hbc
 {!xhb}libs=hbhpdf.hbc
 {!xhb}libs=-lhbxml
+{!xhb}incpaths=${hb_dir}/contrib/xhb
 
 # system
 libs=vfw32 msvfw32
+

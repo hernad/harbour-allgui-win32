@@ -2,6 +2,7 @@
 # hmg_hpdf.hbp
 #
 
+{!xhb}-stop
 -hblib
 -o${hb_addons}/lib/win/${hb_comp}/${hb_name}
 

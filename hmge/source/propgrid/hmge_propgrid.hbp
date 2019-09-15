@@ -1,12 +1,14 @@
 #
-# calldll.hbp
+# propgrid.hbp
 #
 
-{!xhb}-stop
 -hblib
 -o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
--I../../include
--w3 -es2 -q0
--beep
+-warn=max
+-w2 -es2 -q0
 -hbx=${hb_addons}/hmge/${hb_name}
-calldll.prg
+hmge.hbc
+
+h_propgrid.prg
+h_pglang.prg
+c_propgrid.c
