@@ -1,0 +1,15 @@
+#
+# hmg_hpdf.hbp
+#
+
+-hblib
+-o${hb_addons}/lib/win/${hb_comp}/${hb_name}
+
+-I../../include
+
+-w2 -es2 -q0
+
+-hbx=${hb_addons}/hmge/${hb_name}
+
+hmg_hpdf.prg
+

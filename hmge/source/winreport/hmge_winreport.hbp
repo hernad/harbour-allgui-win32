@@ -3,11 +3,11 @@
 #
 
 -hblib
--o../../lib/winreport
+-o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
+hmge.hbc
+-Iinclude
 
--I../../include
-
--hbx=../../include/winreport.hbx
+-hbx=${hb_addons}/hmge/${hb_name}
 
 -w2 -es2 -q0
 

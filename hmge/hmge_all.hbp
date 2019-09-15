@@ -3,9 +3,13 @@
 source/hmge_core.hbp
 source/adordd/hmge_adordd.hbp
 source/bostaurus/hmge_bostaurus.hbp
-{!xhb}source/calldll/hmge_calldll.hbp
+{xhb}source/calldll/hmge_calldll.hbp
 source/hbfimage/hmge_hbfimage.hbp
 source/hbvpdf/hmge_hbvpdf.hbp
+source/hbxml/hmge_hbxml.hbp
+source/hbprinter/hmge_hbprinter.hbp
+{xhb}source/hmg_hpdf/hmge_hpdf.hbp
 source/hbziparc/hmge_hbziparc.hbp
 source/miniprint/hmge_miniprint.hbp
 source/tsbrowse/hmge_tsbrowse.hbp
+source/winreport/hmge_winreport.hbp

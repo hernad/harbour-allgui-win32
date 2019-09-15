@@ -1,0 +1,15 @@
+#
+# hbxml.hbp
+#
+
+-hblib
+-o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
+
+-I../../include
+
+-w -es2 -q0
+
+{bcc}-hbx=${hb_addons}/hmge/${hb_name}
+
+hxmldoc.prg
+xmlparse.c

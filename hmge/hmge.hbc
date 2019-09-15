@@ -25,11 +25,13 @@ libs=hmge_dll hmge_cputype hmge_propgrid hmge_propsheet hmge_tsbrowse hmge_winre
 
 # Harbour needed contribs
 {xhb}libs=hbct hbtip hbwin hbvpdf xhb
-{!xhb}libs=hbct.hbc hbtip.hbc hbwin.hbc hbvpdf.hbc xhb.hbc
+{!xhb}libs=hbct.hbc hbtip.hbc hbwin.hbc hbvpdf xhb.hbc
 
 # Harbour additional contribs
 {xhb}libs=hbmisc hbziparc hbmzip minizip hbmemio hbxml
-{!xhb}libs=hbmisc.hbc hbziparc.hbc hbmzip.hbc minizip.hbc hbmemio.hbc hbxml.hbc
+{!xhb}libs=hbmisc.hbc hbziparc.hbc hbmzip.hbc hbmemio.hbc hbzebra.hbc
+{!xhb}libs=hbhpdf.hbc
+{!xhb}libs=-lhbxml
 
 # system
 libs=vfw32 msvfw32

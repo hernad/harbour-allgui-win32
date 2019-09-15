@@ -3,15 +3,14 @@
 #
 
 -hblib
--o../../harbour/lib/hbprinter
+-o${hb_addons}/hmge/lib/win/${hb_comp}/${hb_name}
 
 -I../../include
 
 -warn=max
 
-{bcc}-hbx=../../include/winprint.hbx
+-hbx=${hb_addons}/hmge/${hb_name}
 
 -w3 -es2 -q0
 
 winprint.prg
-
